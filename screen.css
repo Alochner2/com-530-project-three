@@ -1,9 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Rosario:400,400i,700&display=swap&subset=latin-ext');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-/* stylelint-disable */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-/* stylelint-enable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit;}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
-/* Begin site styles below */
+/* Begin site styles... */
+
+/*Base Styles*/
+html {
+  background-color: #FFFFFF;
+  font-family: "Rosario", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.222222222em;
+  padding: 1.2222222222em 1.8333333333em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.125em;
+  padding-bottom: 0.08em;
+  padding-top: .08em;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.125em;
+  padding-bottom: .10em;
+}
+
+p {
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 1em;
+  padding: .20em;
+  padding-bottom: 1.22em;
+}
+
+/* Responsive Media */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.photo figcaption {
+  position: absolute;
+  left: -10000px;
+}
+
+.photo img {
+  border-radius: 0.3055555556em;
+  padding-bottom: 2em;
+}
+
+/* Layout*/
+
+/*Modular Styles*/
+
+.information {
+  list-style-type: none;
+}
+.information li {
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 0.3055555556em;
+  color: #FFF;
+  margin-bottom: 0.6111111111em;
+  padding:0;
+}
+.information h2 {
+  color: #FFF;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.6111111111em;
+}
+.information p {
+  font-size: 0.8em;
+  padding-bottom: 1em;
+}
+
+.tagline {
+  color: #000000;
+  font-size: 0.83333333325em; /*3.333333333/4 = 0.83333333325‬‬em*/
+  font-weight: 500;
+  line-height: 1.125em;
+  padding-bottom: .50em;
+  padding-top: 1em;
+  text-transform: uppercase;
+}
+/* State Styles*/
+
+/* 200px = 200/16 = 12.5em*/
+@media screen and (min-width: 12.5em) {
+  h1 {
+    font-size: 1.25em;
+  }
+  h2 {
+    font-size: 1.15em;
+  }
+  .information ul {
+    font-size: .8em;
+  }
+
+  /* 350px = 350/16 = 21.875em*/
+  @media screen and (min-width:21.875em) {
+    header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    h1, .tagline {
+      grid-column-start: 1;
+      grid-row-end: 2;
+
+    }
+    .photo {
+      grid-column-start: 2;
+      grid-row-end: 2;
+    }
+  }
+
+/* 500px ||500/16 = 31.25em*/
+@media screen and (min-width: 500px) {
+  html {
+    padding: 1.2222222222em 5.1111111%;
+  }
+  h1 {
+    font-size: 2.0em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .tagline {
+    font-size: 1.25em;
+  }
+
+  .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  .information li {
+
+    margin-left: 0.30555555556em;
+    margin-right: 0.30555555556em;
+
+
+  }
+}
+
+/*820px || 820/16 = 51.25em*/
+@media screen and (min-width: 51.25em) {
+  h1 {
+    font-size: 2.85em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  .tagline {
+    font-size: 1.45em;
+    margin-top: 1.5em;
+  }
+  .information p {
+    font-size: 1.00em;
+    line-height: 1.35em;
+  }
+  .information ul {
+    font-size: 1.00em;
+    line-height: 1.35em;
+  }
+}
