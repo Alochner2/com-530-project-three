@@ -29,6 +29,7 @@ h2 {
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.125em;
+  padding: .38em;
   padding-bottom: .10em;
 }
 
@@ -36,7 +37,7 @@ p {
   color: #FFF;
   font-weight: 400;
   margin-top: 1em;
-  padding: .20em;
+  padding: .85em;
   padding-bottom: 1.22em;
 }
 
@@ -80,6 +81,9 @@ img {
 .information p {
   font-size: 0.8em;
   padding-bottom: 1em;
+}
+.skills li {
+  padding-left: .60em;
 }
 
 .tagline {
