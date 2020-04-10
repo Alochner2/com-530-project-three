@@ -41,6 +41,21 @@ p {
   padding-bottom: 1.22em;
 }
 
+/* Resume Styles */
+h3 {
+font-weight: bold;
+}
+
+
+.details li,
+.responsibilities li {
+  text-indent: 1em;
+  padding-left: 1em;
+  margin-left: 1em;
+
+}
+
+}
 /* Responsive Media */
 img {
   display: block;
