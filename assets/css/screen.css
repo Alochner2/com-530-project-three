@@ -42,12 +42,40 @@ p {
 }
 
 /* Navigation Styles */
-.nav {
-  display: flex;
-  margin-left: -20px;
+.nav a {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  display: block;
+  line-height: 0;
+  margin-bottom: 6px;
+  padding: 18px;
+  text-decoration: none;
 }
-.nav li {
-  margin-left: 20px;
+#portfolio-page #nav-portfolio,
+#home-page #nav-home,
+#resume-page #nav-resume,
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+@media screen and (min-width: 400px) {
+  .nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: -6px;
+    margin-right: 6px;
+  }
+  .nav li {
+    flex: 1 0 auto;
+    margin-left: 12px;
+  }
+  .nav a {
+    border-radius: 6px;
+  }
 }
 
 /* Resume Styles */
