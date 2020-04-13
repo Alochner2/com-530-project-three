@@ -62,16 +62,18 @@ p {
   color: #000000;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
   .nav {
     display: flex;
     flex-flow: row nowrap;
     margin-left: -6px;
     margin-right: 6px;
+
   }
   .nav li {
     flex: 1 0 auto;
     margin-left: 12px;
+
   }
   .nav a {
     border-radius: 6px;
@@ -91,6 +93,10 @@ font-weight: bold;
   margin-left: 1em;
 
 }
+
+/* Portfolio Styles */
+
+
 
 }
 /* Responsive Media */
