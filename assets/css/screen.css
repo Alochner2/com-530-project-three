@@ -62,8 +62,10 @@ p {
   color: #000000;
 }
 /* Resume Styles */
+
 #resume-page h3 {
   font-weight: bold;
+  padding-bottom: 1em;
 }
 #resume-page h4 {
   position: absolute;
@@ -71,9 +73,7 @@ p {
 }
 .details li,
 .responsibilities li {
-  text-indent: 1em;
   padding-left: 1em;
-  margin-left: 1em;
 }
 
 /* Responsive Media */
@@ -156,8 +156,15 @@ img {
   #portfolio-page h2 {
     font-size: 1em;
   }
+  #resume-page h3 {
+    padding-left: .5em;
+    padding-top: .5em;
+  }
   .information ul {
     font-size: .8em;
+  }
+  .responsibilities li {
+    padding-top: 1em;
   }
 }
 
@@ -184,6 +191,10 @@ img {
   .information li {
     margin-left: 0.30555555556em;
     margin-right: 0.30555555556em;
+  }
+  #resume-page h2 {
+    font-weight: 800;
+    padding-top: 2em;
   }
 }
 
@@ -234,14 +245,16 @@ img {
     font-size: 1.5em;
   }
   #resume-page h2 {
-    font-size: 1.25em;
-    font-weight: 600;
-    padding-bottom: 1em;
-    margin-left: 1.5em;
+    font-weight: 800;
+    padding-top: 1em;
   }
+  #resume-page h3 {
+    padding-left: 1em;
+  }
+}
   .tagline {
     font-size: 1.45em;
-    margin-top: 1.5em;
+    padding-top: 2em;
     padding-bottom: 1.5em;
   }
   .information p {
