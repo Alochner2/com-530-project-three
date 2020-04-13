@@ -62,10 +62,11 @@ p {
   color: #000000;
 }
 /* Resume Styles */
-
+#resume-page h2 {
+  font-weight: 800;
+}
 #resume-page h3 {
   font-weight: bold;
-  padding-bottom: 1em;
 }
 #resume-page h4 {
   position: absolute;
@@ -193,7 +194,6 @@ img {
     margin-right: 0.30555555556em;
   }
   #resume-page h2 {
-    font-weight: 800;
     padding-top: 2em;
   }
 }
@@ -251,7 +251,6 @@ img {
   #resume-page h3 {
     padding-left: 1em;
   }
-}
   .tagline {
     font-size: 1.45em;
     padding-top: 2em;
