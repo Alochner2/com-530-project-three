@@ -133,7 +133,6 @@ img {
 }
 
 .tagline {
-  color: #000000;
   font-size: 0.83333333325em; /*3.333333333/4 = 0.83333333325‬‬em*/
   font-weight: 500;
   line-height: 1.125em;
@@ -167,7 +166,8 @@ img {
   .responsibilities li {
     padding-top: 1em;
   }
-  .tagline {
+  p.tagline {
+    color: #000000;
     margin-top:-.75em;
     margin-bottom: 1em;
   }
@@ -207,21 +207,23 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  #home-page .tagline {
-    color: #000000;
+  #home-page h1, .tagline {
+    grid-column-start: 1;
+    grid-row-end: 2;
   }
 #resume-page header {
   background-color: #000000;
+
 }
 #resume-page h1 {
   padding-left: .25em;
 }
-#resume-page h1, .tagline {
+#resume-page h1 {
     color: #FFFFFF;
     grid-column-start: 1;
     grid-row-end: 2;
 
-  }
+}
   .photo {
     grid-column-start: 2;
     grid-row-end: 2;
@@ -236,16 +238,18 @@ img {
   .nav li {
     flex: 1 0 auto;
     margin-left: 12px;
-
   }
   .nav a {
     border-radius: 6px;
   }
-  .tagline {
+  p.tagline  {
+    color: #000000;
     padding-top: 3em;
   }
+  #resume-page p.tagline {
+    color: #FFFFFF;
+  }
 }
-
 /*950px || 950/16 = 59.375em*/
 @media screen and (min-width: 59.375em) {
   h1 {
@@ -267,7 +271,7 @@ img {
   #resume-page h3 {
     padding-left: 1em;
   }
-  .tagline {
+  p.tagline {
     font-size: 1.45em;
     padding-top: 3.5em;
     padding-bottom: 1.5em;
