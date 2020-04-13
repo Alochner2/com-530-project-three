@@ -60,10 +60,9 @@ p {
 .nav a:focus {
   background: #FFFFFF;
   color: #000000;
-
-
+}
 /* Resume Styles */
-h3 {
+#resume-page h3 {
   font-weight: bold;
 }
 #resume-page h4 {
@@ -151,49 +150,16 @@ img {
   h2 {
     font-size: 1.15em;
   }
+  #portfolio-page h1 {
+    padding-bottom: 1em;
+  }
   #portfolio-page h2 {
     font-size: 1em;
   }
   .information ul {
     font-size: .8em;
   }
-
-  /* 350px = 350/16 = 21.875em*/
-  @media screen and (min-width:21.875em) {
-    header {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    h1, .tagline {
-      grid-column-start: 1;
-      grid-row-end: 2;
-
-    }
-    .photo {
-      grid-column-start: 2;
-      grid-row-end: 2;
-    }
-  }
-
-  @media screen and (min-width: 500px) {
-    .nav {
-      display: flex;
-      flex-flow: row nowrap;
-      margin-left: -6px;
-      margin-right: 6px;
-
-    }
-    .nav li {
-      flex: 1 0 auto;
-      margin-left: 12px;
-
-    }
-    .nav a {
-      border-radius: 6px;
-    }
-  }
-
+}
 
 /* 500px ||500/16 = 31.25em*/
 @media screen and (min-width: 500px) {
@@ -213,32 +179,70 @@ img {
   .information {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
   }
 
   .information li {
-
     margin-left: 0.30555555556em;
     margin-right: 0.30555555556em;
-
-
   }
 }
 
-/*820px || 820/16 = 51.25em*/
-@media screen and (min-width: 51.25em) {
+@media screen and (min-width: 650px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1, .tagline {
+    grid-column-start: 1;
+    grid-row-end: 2;
+
+  }
+  .photo {
+    grid-column-start: 2;
+    grid-row-end: 2;
+  }
+  .nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: -6px;
+    margin-right: 6px;
+
+  }
+  .nav li {
+    flex: 1 0 auto;
+    margin-left: 12px;
+
+  }
+  .nav a {
+    border-radius: 6px;
+  }
+}
+
+/*950px || 950/16 = 59.375em*/
+@media screen and (min-width: 59.375em) {
   h1 {
     font-size: 2.85em;
   }
   h2 {
     font-size: 2.5em;
   }
+  #portfolio-page h1 {
+    padding-bottom: .5em;
+  }
   #portfolio-page h2 {
     font-size: 1.5em;
+  }
+  #resume-page h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    padding-bottom: 1em;
+    margin-left: 1.5em;
   }
   .tagline {
     font-size: 1.45em;
     margin-top: 1.5em;
+    padding-bottom: 1.5em;
   }
   .information p {
     font-size: 1.00em;
