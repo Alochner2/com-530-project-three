@@ -60,25 +60,7 @@ p {
 .nav a:focus {
   background: #FFFFFF;
   color: #000000;
-}
 
-@media screen and (min-width: 500px) {
-  .nav {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-left: -6px;
-    margin-right: 6px;
-
-  }
-  .nav li {
-    flex: 1 0 auto;
-    margin-left: 12px;
-
-  }
-  .nav a {
-    border-radius: 6px;
-  }
-}
 
 /* Resume Styles */
 h3 {
@@ -92,18 +74,6 @@ font-weight: bold;
   padding-left: 1em;
   margin-left: 1em;
 
-}
-
-/* Portfolio Styles */
-
-#portfolio-page img {
-  background-color: #000000;
-  color: #FFFFFF;
-  height: 50%;
-  position: absolute;
-  top: 30em;
-  left: 0;
-  width: 100%;
 }
 
 }
@@ -121,6 +91,16 @@ img {
 .photo img {
   border-radius: 0.3055555556em;
   padding-bottom: 2em;
+}
+
+#portfolio-page img {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 50%;
+  position: absolute;
+  top: 30em;
+  left: 0;
+  width: 100%;
 }
 
 /* Layout*/
@@ -171,6 +151,9 @@ img {
   h2 {
     font-size: 1.15em;
   }
+  #portfolio-page h2 {
+    font-size: 1em;
+  }
   .information ul {
     font-size: .8em;
   }
@@ -192,6 +175,25 @@ img {
       grid-row-end: 2;
     }
   }
+
+  @media screen and (min-width: 500px) {
+    .nav {
+      display: flex;
+      flex-flow: row nowrap;
+      margin-left: -6px;
+      margin-right: 6px;
+
+    }
+    .nav li {
+      flex: 1 0 auto;
+      margin-left: 12px;
+
+    }
+    .nav a {
+      border-radius: 6px;
+    }
+  }
+
 
 /* 500px ||500/16 = 31.25em*/
 @media screen and (min-width: 500px) {
@@ -230,6 +232,9 @@ img {
   }
   h2 {
     font-size: 2.5em;
+  }
+  #portfolio-page h2 {
+    font-size: 1.5em;
   }
   .tagline {
     font-size: 1.45em;
