@@ -96,7 +96,15 @@ font-weight: bold;
 
 /* Portfolio Styles */
 
-
+#portfolio-page img {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 50%;
+  position: absolute;
+  top: 30em;
+  left: 0;
+  width: 100%;
+}
 
 }
 /* Responsive Media */
