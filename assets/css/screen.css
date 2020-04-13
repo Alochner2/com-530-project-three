@@ -167,6 +167,10 @@ img {
   .responsibilities li {
     padding-top: 1em;
   }
+  .tagline {
+    margin-top:-.75em;
+    margin-bottom: 1em;
+  }
 }
 
 /* 500px ||500/16 = 31.25em*/
@@ -203,8 +207,17 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  h1, .tagline {
+  #home-page .tagline {
+    color: #000000;
+  }
+#resume-page header {
+  background-color: #000000;
+}
+#resume-page h1 {
+  padding-left: .25em;
+}
+#resume-page h1, .tagline {
+    color: #FFFFFF;
     grid-column-start: 1;
     grid-row-end: 2;
 
@@ -227,6 +240,9 @@ img {
   }
   .nav a {
     border-radius: 6px;
+  }
+  .tagline {
+    padding-top: 3em;
   }
 }
 
@@ -253,7 +269,7 @@ img {
   }
   .tagline {
     font-size: 1.45em;
-    padding-top: 2em;
+    padding-top: 3.5em;
     padding-bottom: 1.5em;
   }
   .information p {
