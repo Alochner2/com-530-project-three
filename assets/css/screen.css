@@ -40,9 +40,6 @@ p {
   padding: .85em;
   padding-bottom: 1.22em;
 }
-.tagline {
-  color: #956178;
-}
 
 /* Navigation Styles */
 .nav a {
@@ -136,6 +133,7 @@ img {
   font-size: 0.83333333325em; /*3.333333333/4 = 0.83333333325‬‬em*/
   font-weight: 500;
   line-height: 1.125em;
+  margin-left: -0.8em;
   padding-bottom: .50em;
   padding-top: 1em;
   text-transform: uppercase;
@@ -151,7 +149,7 @@ img {
     font-size: 1.15em;
   }
   #portfolio-page h1 {
-    padding-bottom: 1em;
+    padding-bottom: 1.8em;
   }
   #portfolio-page h2 {
     font-size: 1em;
@@ -167,7 +165,6 @@ img {
     padding-top: 1em;
   }
   p.tagline {
-
     margin-top:-.75em;
     margin-bottom: 1em;
   }
@@ -207,6 +204,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   #home-page h1, .tagline {
     grid-column-start: 1;
     grid-row-end: 2;
@@ -243,14 +241,14 @@ img {
     border-radius: 6px;
   }
   p.tagline  {
-  
     padding-top: 3em;
   }
   #portfolio-page h2 {
     font-size: 1.5em;
   }
   #resume-page p.tagline {
-    color: #FFFFFF;
+    color: #956178;
+    margin-left: -0.4em;
   }
 
 }
@@ -263,7 +261,7 @@ img {
     font-size: 2.5em;
   }
   #portfolio-page h1 {
-    padding-bottom: .5em;
+    padding-bottom: 2em;
   }
   #portfolio-page h2 {
     font-size: 1.5em;
