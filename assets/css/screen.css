@@ -77,6 +77,17 @@ p {
   padding-left: 1em;
 }
 
+/* Portfolio Styles */
+#portfolio-page h2 {
+  color: #956178;
+  font-size: 0.83333333325em; /*3.333333333/4 = 0.83333333325‬‬em*/
+  font-weight: 500;
+  line-height: 1.125em;
+  margin-left: -0.8em;
+  padding-bottom: .50em;
+  padding-top: 1em;
+}
+
 /* Responsive Media */
 img {
   display: block;
@@ -151,7 +162,7 @@ img {
   #portfolio-page h1 {
     padding-bottom: 1.8em;
   }
-  #portfolio-page h2 {
+  #portfolio-page h3 {
     font-size: 1em;
   }
   #resume-page h3 {
@@ -243,7 +254,7 @@ img {
   p.tagline  {
     padding-top: 3em;
   }
-  #portfolio-page h2 {
+  #portfolio-page h3 {
     font-size: 1.5em;
   }
   #resume-page p.tagline {
@@ -263,7 +274,7 @@ img {
   #portfolio-page h1 {
     padding-bottom: 2em;
   }
-  #portfolio-page h2 {
+  #portfolio-page h3 {
     font-size: 1.5em;
   }
   #resume-page h2 {
