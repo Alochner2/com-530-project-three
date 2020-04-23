@@ -86,6 +86,7 @@ p {
   margin-left: -0.8em;
   padding-bottom: .50em;
   padding-top: 1em;
+  text-transform: uppercase;
 }
 
 /* Responsive Media */
@@ -159,8 +160,9 @@ img {
   h2 {
     font-size: 1.15em;
   }
-  #portfolio-page h1 {
-    padding-bottom: 1.8em;
+
+  #portfolio-page h2 {
+    padding-left: .8em;
   }
   #portfolio-page h3 {
     font-size: 1em;
@@ -175,7 +177,7 @@ img {
   .responsibilities li {
     padding-top: 1em;
   }
-  p.tagline {
+  p.tagline, #portfolio-page h2 {
     margin-top:-.75em;
     margin-bottom: 1em;
   }
@@ -192,7 +194,7 @@ img {
   h2 {
     font-size: 1.5em;
   }
-  .tagline {
+  .tagline, #portfolio-page h2 {
     font-size: 1.25em;
   }
 
@@ -256,6 +258,7 @@ img {
   }
   #portfolio-page h3 {
     font-size: 1.5em;
+    padding-top: 1em; 
   }
   #resume-page p.tagline {
     color: #956178;
@@ -271,9 +274,11 @@ img {
   h2 {
     font-size: 2.5em;
   }
-  #portfolio-page h1 {
-    padding-bottom: 2em;
+  #portfolio-page h2 {
+    font-size: 1.45em;
+    padding-bottom: 1.5em;
   }
+
   #portfolio-page h3 {
     font-size: 1.5em;
   }
