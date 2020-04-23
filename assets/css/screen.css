@@ -95,12 +95,8 @@ img {
 
 #portfolio-page img {
   background-color: #000000;
-  color: #FFFFFF;
-  height: 50%;
-  position: absolute;
-  top: 30em;
-  left: 0;
-  width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 /* Layout*/
@@ -246,9 +242,13 @@ img {
     color: #000000;
     padding-top: 3em;
   }
+  #portfolio-page h2 {
+    font-size: 1.5em;
+  }
   #resume-page p.tagline {
     color: #FFFFFF;
   }
+
 }
 /*950px || 950/16 = 59.375em*/
 @media screen and (min-width: 59.375em) {
