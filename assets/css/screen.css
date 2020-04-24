@@ -222,24 +222,28 @@ img {
     grid-column-start: 1;
     grid-row-end: 2;
   }
-#resume-page header {
-  background-color: #000000;
-}
-
-#resume-page h1 {
+  #resume-page header {
+    background-color: #000000;
+  }
+  #resume-page h1 {
     color: #FFFFFF;
     grid-column-start: 1;
     grid-row-end: 2;
     padding-left: .25em;
-}
-#resume-page p.tagline {
-  color: #956178;
-  margin-left: -0.4em;
-}
-#portfolio-page h3 {
-  font-size: 1.5em;
-  padding-top: 1em;
-}
+  }
+  #resume-page p.tagline {
+    color: #956178;
+    margin-left: -0.4em;
+    margin-bottom: -.1em;
+  }
+  #resume-page .nav {
+    padding-top: 1.43em;
+  }
+
+  #portfolio-page h3 {
+    font-size: 1.5em;
+    padding-top: 1em;
+  }
   .photo {
     grid-column-start: 2;
     grid-row-end: 2;
