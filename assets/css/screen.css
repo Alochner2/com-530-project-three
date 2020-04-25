@@ -167,9 +167,17 @@ img {
   #portfolio-page h3 {
     font-size: 1em;
   }
+  #resume-page h2 {
+    font-size: 1.3em;
+    margin-left: -0.4em;
+    padding-top: .7em;
+  }
   #resume-page h3 {
-    padding-left: .5em;
-    padding-top: .5em;
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+  #resume-page .responsibilities {
+    color: #956178;
   }
   .information ul {
     font-size: .8em;
@@ -208,7 +216,7 @@ img {
     margin-right: 0.30555555556em;
   }
   #resume-page h2 {
-    padding-top: 2em;
+    padding-top: 1em;
   }
 }
 
@@ -231,14 +239,17 @@ img {
     grid-row-end: 2;
     padding-left: .25em;
   }
+  #resume-page h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-top: .7em;
+  }
   #resume-page p.tagline {
     color: #956178;
     margin-left: -0.4em;
     margin-bottom: -.1em;
   }
-  #resume-page h2 {
-    margin-top: -1em;
-  }
+
   #resume-page .nav {
     padding-top: 1.43em;
   }
@@ -300,8 +311,9 @@ img {
     font-size: 1.5em;
   }
   #resume-page h2 {
+    font-size: 2em;
     font-weight: 800;
-    padding-top: 1.5em;
+    padding-top: .7em;
   }
   #resume-page h3 {
     font-size: 1.2em;
