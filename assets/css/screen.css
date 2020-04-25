@@ -245,7 +245,8 @@ img {
   #resume-page .responsibilities {
     color: #956178;
     line-height: 1em;
-    padding-left: 2em;
+    list-style-type: disc;
+    padding-left: 4em;
   }
   #resume-page .details {
     padding-bottom: .5em;
@@ -300,10 +301,11 @@ img {
   }
   #resume-page h2 {
     font-weight: 800;
-    padding-top: 1em;
+    padding-top: 1.5em;
   }
   #resume-page h3 {
-    padding-left: 1em;
+    font-size: 1.2em;
+    padding-left: 2.5em;
   }
   p.tagline {
     font-size: 1.45em;
