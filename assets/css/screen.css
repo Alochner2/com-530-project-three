@@ -236,10 +236,26 @@ img {
     margin-left: -0.4em;
     margin-bottom: -.1em;
   }
+  #resume-page h2 {
+    margin-top: -1em;
+  }
   #resume-page .nav {
     padding-top: 1.43em;
   }
-
+  #resume-page .responsibilities {
+    color: #956178;
+    line-height: 1em;
+    padding-left: 2em;
+  }
+  #resume-page .details {
+    padding-bottom: .5em;
+  }
+  #resume-page h3, .details li {
+    padding-left: 3em;
+  }
+  #resume-page h3 {
+    padding-top: 1em;
+  }
   #portfolio-page h3 {
     font-size: 1.5em;
     padding-top: 1em;
