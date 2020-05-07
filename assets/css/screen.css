@@ -114,7 +114,7 @@ img {
   left: -10000px;
 }
 #portfolio-page img {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 /* Layout*/
 
@@ -307,6 +307,7 @@ img {
   h2 {
     font-size: 2.5em;
   }
+
   #portfolio-page h2 {
     font-size: 1.45em;
     padding-bottom: 1.5em;
@@ -315,6 +316,12 @@ img {
   #portfolio-page h3 {
     font-size: 1.5em;
   }
+
+  #portfolio-page .mockup {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 2em;
+ }
   #resume-page h2 {
     font-size: 2em;
     font-weight: 800;
