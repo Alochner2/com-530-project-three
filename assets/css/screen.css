@@ -88,6 +88,10 @@ p {
   padding-top: 1em;
   text-transform: uppercase;
 }
+#portfolio-page h3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
 /* Responsive Media */
 img {
@@ -105,12 +109,13 @@ img {
   padding-bottom: 2em;
 }
 
-#portfolio-page img {
-  background-color: #000000;
-  display: block;
-  max-width: 100%;
+.mockup figcaption {
+  position: absolute;
+  left: -10000px;
 }
-
+#portfolio-page img {
+  margin-bottom: 2em;
+}
 /* Layout*/
 
 /*Modular Styles*/
